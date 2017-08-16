@@ -22,6 +22,9 @@ def request_counter():
         for i in range(counts):
             counts_lines.writerow("1")
     counts = 0
+
+    counts_dict = dict()
+    
     return redirect("/")
 
 
